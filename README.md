@@ -32,6 +32,12 @@
 mobile web view
 
 
+![](DataBasePictures/mobileWebView.jpg)
+
+
+مقطع توضيح لإرسال الإتجاهات لقاعدة البيانات
+
+
 ![](DataBasePictures/video.gif)
 
 
