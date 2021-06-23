@@ -32,7 +32,7 @@
 mobile web view
 
 
-![](DataBasePictures/mobileWebView.jpg)
+![](DataBasePictures/video.gif)
 
 
 وايضا من خلال الرابط التالي ( https://abdulmohsenalbokhari.github.io/IOT2/ )
