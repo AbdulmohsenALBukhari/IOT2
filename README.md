@@ -34,8 +34,6 @@ mobile web view
 
 ![](DataBasePictures/mobileWebView.jpg)
 
-<img srs"DataBasePictures/webViewControl.png">
-
 
 وايضا من خلال الرابط التالي ( https://abdulmohsenalbokhari.github.io/IOT2/ )
 
