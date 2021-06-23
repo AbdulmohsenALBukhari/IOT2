@@ -1,0 +1,432 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: url(download.jpg);
+    background-size: cover;
+    margin: auto;
+}
+
+.control{
+    background-color: black;
+    text-align: center;
+    margin: 100px auto;
+    margin-bottom: -95px;
+    border-radius: 30px;
+    position: relative;
+    width: 850px;
+    height: -10px auto;
+    border: 2px white solid;
+    opacity: 0.7;
+}
+
+.p1{
+    margin:1% auto;
+    color: rgb(197, 9, 235);
+    font-size: 2rem;
+}
+
+.box{
+    width: 900px;
+    height: 400px;
+    margin: 100px auto;
+    background-color: black;
+    opacity: 0.8;
+    border: 2px white solid;
+    border-radius: 50px;
+}
+
+.BlockEngine{
+    float: left;
+    margin: 1% auto;
+    margin-left: 1.6%;
+    margin-right: 0%;
+    margin-bottom: 16.5%;
+    padding: 0.3%;
+    border-radius: 20px;
+    width: 30%;
+    border: 2px solid rgb(197, 9, 235);
+    position: relative;
+    top: 15%;
+}
+
+#sliderA,
+#sliderB,
+#sliderC,
+#sliderD,
+#sliderE,
+#sliderF{
+    -webkit-appearance: none;
+    width: 97.3%; /*أتحكم بطول البار*/
+    height: 7px;/*عرض البار*/
+    outline: none;
+    border-radius: 3px;
+}
+
+#sliderA::-webkit-slider-thumb,
+#sliderB::-webkit-slider-thumb,
+#sliderC::-webkit-slider-thumb,
+#sliderD::-webkit-slider-thumb,
+#sliderE::-webkit-slider-thumb,
+#sliderF::-webkit-slider-thumb
+{
+    -webkit-appearance: none;
+    width: 48px;
+    height:48px ;
+    cursor: pointer;
+    z-index: 3;
+    position: relative;
+}
+
+#selectorA,
+#selectorB,
+#selectorC,
+#selectorD,
+#selectorE,
+#selectorF
+{
+    height: 102.5px;
+    width: 48px;
+    position: absolute;
+    bottom: -18px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 2;
+}
+
+.selectBtnA,
+.selectBtnB,
+.selectBtnC,
+.selectBtnD,
+.selectBtnE,
+.selectBtnF
+{
+    height: 30px;
+    width: 30px;
+    top: 59px;
+    left: 13px;
+    background-image: url(2991218.png);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10%;
+    position: absolute;
+    bottom: 0;
+}
+
+#selectValueA,
+#selectValueB,
+#selectValueC,
+#selectValueD,
+#selectValueE,
+#selectValueF
+{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 5px;
+    left: 6px;
+    background: rgb(197, 9, 235);
+    border-radius: 400px;
+    /*square end*/
+    text-align: center;
+    line-height: 40px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#selectValueB::after,
+#selectValueA::after,
+#selectValueC::after,
+#selectValueD::after,
+#selectValueE::after,
+#selectValueF::after
+{
+    content: '';
+    border-top: 14px solid rgb(197, 9, 235);
+    position: absolute;
+}
+
+#BarB,
+#BarA,
+#BarC,
+#BarD,
+#BarE,
+#BarF{
+    width: 50%;
+    height: 8px; 
+    background: rgb(197, 9, 235);
+    border-radius: 3px;
+    position: absolute;
+    top: 10.1px;
+    left: 2.5px;
+}
+
+.gaerS{
+    position: relative;
+    margin: 13%;
+    float: left;
+    color: white;
+    margin-top: -8%;
+    opacity: 0.8;
+ }
+
+.BackButton{
+    background-color: black;
+    opacity: 0.7;
+    width: 850px;
+    height: 65px;
+    margin: 100px auto;
+    margin-top: -95px;
+    border: 2px white solid;
+    border-radius: 50px;
+    position: relative;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.ButtonStart{
+    margin: 0 ;
+    position: relative;
+    top: -80px;
+    left: 580px;
+    color: white;
+    border: none;
+    width: 180px;
+    height: 50px;
+    background-color: black;
+    border-radius: 4px;
+    box-shadow: inset 0 0 0 0 rgb(197, 9, 235);
+    transition: ease-out 0.7s;
+    font-size: 2rem;
+    outline: none;
+}
+
+.ButtonStart:hover{
+    box-shadow: inset 300px 0 0 0 rgb(197, 9, 235);
+    cursor: pointer;
+    color: black;
+}
+
+.ButtonSave{
+    margin: 0 ;
+    position: relative;
+    top: -80px;
+    left: -86px;
+    color: white;
+    border: none;
+    width: 180px;
+    height: 50px;
+    background-color: black;
+    border-radius: 4px;
+    box-shadow: inset 0 0 0 0 rgb(197, 9, 235);
+    transition: ease-out 0.7s;
+    font-size: 2rem;
+    outline: none;
+    
+}
+
+.ButtonSave:hover{
+    box-shadow: inset 300px 0 0 0 rgb(197, 9, 235);
+    cursor: pointer;
+    color: black;
+}
+
+.boxLeft{
+    background-color: black;
+    opacity: 0.7;
+    width: 200px;
+    height: 80px;
+    margin: 100px auto;
+    top: 90px;
+    left: -220px;
+    margin-top: -100px;
+    border: 2px white solid;
+    border-radius: 50px;
+    position: relative;
+}
+
+.butLeft{
+    margin: 15px auto;
+    margin-left: 25px;
+    width: 150px;
+    height: 50px;
+    position: relative;
+    color: white;
+    border: none;
+    border: 2px black solid;
+    border-radius: 50px;
+    position: relative;
+    background-color: black;
+    border-radius: 4px;
+    box-shadow: inset 0 0 0 0 rgb(197, 9, 235);
+    transition: ease-out 0.7s;
+    font-size: 2rem;
+    outline: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.boxForward{
+    background-color: black;
+    opacity: 0.7;
+    width: 200px;
+    height: 80px;
+    margin: -85px auto;
+    margin-left: 931px auto;
+    margin-top: -90px auto;
+    margin-bottom: 15px ;
+    border: 2px white solid;
+    border-radius: 50px;
+    position: relative;
+}
+
+.butForward{
+    margin: 16px;
+    margin-left: 25px;
+    width: 150px;
+    height: 40px;
+    position: relative;
+    color: white;
+    border: none;
+    border: 2px black solid;
+    border-radius: 50px;
+    position: relative;
+    background-color: black;
+    border-radius: 4px;
+    box-shadow: inset 0 0 0 0 rgb(197, 9, 235);
+    transition: ease-out 0.7s;
+    font-size: 2rem;
+    outline: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.boxRight{
+    background-color: black;
+    opacity: 0.7;
+    width: 200px;
+    height: 80px;
+    margin: 100px auto;
+    top: -85px;
+    left: 220px;
+    margin-top: -100px;
+    border: 2px white solid;
+    border-radius: 50px;
+    position: relative;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.butRight{
+    margin: 15px;
+    margin-left: 26px;
+    width: 150px;
+    height: 50px;
+    position: relative;
+    color: white;
+    border: none;
+    border: 2px black solid;
+    border-radius: 50px;
+    position: relative;
+    background-color: black;
+    border-radius: 4px;
+    box-shadow: inset 0 0 0 0 rgb(197, 9, 235);
+    transition: ease-out 0.7s;
+    font-size: 2rem;
+    outline: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.boxStop{
+    background-color: black;
+    opacity: 0.7;
+    width: 200px;
+    height: 80px;
+    margin: 100px auto;
+    margin-top: -95px;
+    border: 2px red solid;
+    border-radius: 50px;
+    position: relative;
+}
+
+.butStop{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 15px;
+    margin-left: 25px;
+    width: 150px;
+    height: 50px;
+    position: relative;
+    color: red;
+    border: none;
+    border: 2px black solid;
+    border-radius: 50px;
+    position: relative;
+    background-color: black;
+    border-radius: 4px;
+    box-shadow: inset 0 0 0 0 rgb(197, 9, 235);
+    transition: ease-out 0.7s;
+    font-size: 2rem;
+    outline: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.backStep{
+    background-color: black;
+    opacity: 0.7;
+    width: 200px;
+    height: 80px;
+    margin: 10px auto;
+    margin-top: -175px;
+    border: 2px white solid;
+    border-radius: 50px;
+    position: relative;
+}
+
+.butBack{
+    margin: 15px;
+    margin-left: 25px;
+    width: 150px;
+    height: 50px;
+    position: relative;
+    color: white;
+    border: none;
+    border: 2px black solid;
+    border-radius: 50px;
+    position: relative;
+    background-color: black;
+    border-radius: 4px;
+    box-shadow: inset 0 0 0 0 rgb(197, 9, 235);
+    transition: ease-out 0.7s;
+    font-size: 2rem;
+    outline: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.butLeft:hover{
+    box-shadow: inset 300px 0 0 0 rgb(197, 9, 235);
+    cursor: pointer;
+    color: black;
+}
+
+.butForward:hover{
+    box-shadow: inset 300px 0 0 0 rgb(197, 9, 235);
+    cursor: pointer;
+    color: black;
+}
+
+.butRight:hover{
+    box-shadow: inset 300px 0 0 0 rgb(197, 9, 235);
+    cursor: pointer;
+    color: black;
+}
+
+.butStop:hover{
+    box-shadow: inset 300px 0 0 0 rgb(197, 9, 235);
+    cursor: pointer;
+    color: black;
+}
+
+.butBack:hover{
+    box-shadow: inset 300px 0 0 0 rgb(197, 9, 235);
+    cursor: pointer;
+    color: black;
+}
